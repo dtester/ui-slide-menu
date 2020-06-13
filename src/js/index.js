@@ -35,5 +35,4 @@ for (let i = 0; i < items.length; i++) {
 }
 
 window.addEventListener('resize', () => setTargetPos(active))
-
-setTargetPos(active)
+window.addEventListener('load', () => setTargetPos(active))
