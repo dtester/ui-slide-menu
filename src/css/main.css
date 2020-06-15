@@ -202,10 +202,6 @@ body {
     background: linear-gradient(to bottom, rgba(255,255,255,.2), rgba(255,255,255,.15), transparent);
   }
 
-  .content__section::after {
-    width: 100vh;
-    height: 100vh;
-  }
   .content__text {
     transform: translate(0, 0);
   }
